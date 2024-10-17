@@ -1,7 +1,7 @@
 rm(list=ls());
 cat("\014");
 library(readxl);
-data = read_excel("c:/emf_2024/EMF_2024_name1_name2.xlsx");
+data = read_excel("c:/emf_2024/EMF_2024_Snellman_Nordman.xlsx");
 
 
 install.packages("readxl")
