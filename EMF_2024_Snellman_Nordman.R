@@ -9,6 +9,8 @@ install.packages("plm")
 library(readxl)
 library(plm)
 
+panel_data = data
+
 # Convert the 'Date' column to Date format
 panel_data$Date <- as.numeric(panel_data$Date)
 
